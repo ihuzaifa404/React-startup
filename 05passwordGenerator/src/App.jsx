@@ -2,36 +2,7 @@ import {  useState,useCallback, useEffect, useRef } from 'react'
 
 function App() {
 
-      // const [Length,setLength]=useState(8);
-      // const [Number , setNumber]= useState(false);
-      // const [Character, setCharater]= useState(false);
-      // const [Password, setPassword]= useState("")
-
-      // const passwordRef=useRef(null);
-
-      // const passwordGenerator=useCallback(()=>{
-      //   let pass=""
-      //   let str="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
-      //   if (Number) str += "0123456789"
-      //   if(Character) str += "!@#$%^&*()_+|?><:{}[]\';./,"
-
-      //   for (let i = 1; i <= Length; i++) {
-      //     let char = Math.floor(Math.random() * str.length )
-      //     pass += str.charAt(char)
-      //   }
-      //   setPassword(pass)
-
-      // },[Length,Number,Character,setPassword])
-
-      // const passwordCopyToClipboard=()=>{
-      //   passwordRef.current.select(Password)
-      //   passwordRef.current.setSelectionRange(0 ,100)
-      //   window.navigator.clipboard.writeText(Password);
-      // }
-
-      // useEffect(()=>{
-      //   passwordGenerator();
-      // },[Length,Number,Character,passwordGenerator])
+   
 
       
       const [Length,setLength]=useState(8)
